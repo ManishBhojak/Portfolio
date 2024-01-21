@@ -1,1 +1,52 @@
 {% extends "base.html" %}
+{% block body %}
+    <div class="container mt-5">
+        <div class="row">
+            <div class="profile col-3 text-center mx-auto">
+                <img src="/static/assets/profile.png" alt="Profile" class="d-block mx-4" style="width:200px; width: 200px;">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center d-block text-light mt-2 display-3">Manish Bhojak</h2>
+                    <h4 class="text-center d-block text-light mt-2 display-6">Software Developer</h4>
+                </div>
+                <div class="row">
+                    <p class="lead text-center text-light mt-2"><span class="h4">Welcome to my portfolio!</span> I am a dynamic Software Developer specializing in Python and Machine Learning, with a focus on innovative solutions. With a year of hands-on experience in Web Scraping, I bring a proven track record of creating efficient and scalable software. My portfolio showcases a commitment to delivering high-quality results through collaboration and a passion for staying ahead of industry trends. Explore my projects and discover how my skills can add value to your team or project. Let's build the future together!</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <p class="display-5  mx-2 mt-4 text-light">Certifications</p>
+                </div>
+            </div>
+            <div class="container text-center mt-2">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <div class="card" style="width: 16rem; height:18.5rem;">
+                        <img src="/static/assets/python.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text h4">Certified In Python Programming and Django Development</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 17rem;">
+                        <img src="/static/assets/webdev.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text h4">Certified In Web Development from Scratch</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 16rem;">
+                        <img src="/static/assets/ML.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text h4">Certified In Machine Learning with Python</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+{% endblock body %}
